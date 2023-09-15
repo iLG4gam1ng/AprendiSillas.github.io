@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Inicio</title>
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/lateral.css">
+    <link rel="stylesheet" href="styles/main.css">
+    
+</head>
+
+<body>
+<!-------------------- Barra lateral -------------------------->
+    <nav class="sidebar">
+        <div class="sidebar-inner">
+            <header class="sidebar-header">
+                <button type="butt" class="sidebar-burger"
+                onclick="toggleSidebar()">
+                <i class='bx bx-menu' ></i>
+            </button>
+            <button type="button" class="sidebar-logo">
+                <img src="styles/src/logo.png" class="logo-image">
+            </button>
+            </header>
+
+            <nav class="sidebar-menu">
+                <button type="button">
+                <i class='bx bx-home' ></i>
+                <span>Inicio</span>
+                </button>
+                <button type="button">
+                <i class='bx bx-package'></i>
+                <span>Productos</span>
+                </button>
+                <button type="button">
+                <i class='bx bx-book-content'></i>
+                <span>Contacto</span>
+                </button>
+                <button type="button">
+                <i class='bx bx-cart'></i>
+                <span>Carrito</span>
+                </button>
+            </nav>
+        </div>
+    </nav>
+
+    <script type="text/javascript">
+        const toggleSidebar = () => document.body.classList.toggle("open");
+    </script>
+<!-------------------- Barra lateral -------------------------->
+
+<center><h1>APRENDISILLAS</h1></center>
+<center><h2></h2></center>
+
+
+</body>
+</html>
